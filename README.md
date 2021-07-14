@@ -15,7 +15,7 @@ Clone it, head into the project and then run:
 ```
 sass-convert -F scss -T sass -i -R ./  && find . -iname “*.scss” -exec bash -c 'mv "$0" “${0%\.scss}.sass"' {} \;
 ```
-
+# node-sass è deprecato in favore di dart-sass
 ### Use with Node-sass
 
 When using `node-sass` - in order to build that boilerplate, one needs to:
